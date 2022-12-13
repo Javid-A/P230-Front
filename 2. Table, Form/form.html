@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <form method="get" autocomplete="off" novalidate>
+        <div>
+            <label for="firstname">Firstname</label><br>
+            <input class="information" id="firstname" type="text" placeholder="Type your firstname" name="fn" required>
+        </div>
+        <div>
+            <label for="surname">Surname</label><br>
+            <input type="text" id="surname" placeholder="Type your surname" name="sn">
+        </div>
+        <div>
+            <label for="email">Email</label><br>
+            <input type="email" id="email" placeholder="Type your email" name="email"
+                value="javid.asadullayev@code.edu.az">
+        </div>
+        <div>
+            <label for="pw">Password</label><br>
+            <input type="password" id="pw" maxlength="16" minlength="8">
+        </div>
+        <div class="hobbies">
+            <h6>Hobbies:</h6>
+            <div id="music">
+                <input type="checkbox" id="Music">
+                <label for="Music">Music</label>
+            </div>
+            <div id="movie">
+                <input type="checkbox" id="Movie">
+                <label for="Movie">Movie</label>
+            </div>
+        </div>
+        <div class="genders">
+            <h6>Genders:</h6>
+            <div class="male">
+                <input type="radio" name="gender" id="male">
+                <label for="male">Male</label>
+            </div>
+            <div class="female">
+                <input type="radio" name="gender" id="female">
+                <label for="female">Female</label>
+            </div>
+            <div class="others">
+                <input type="radio" name="gender" id="other">
+                <label for="other">Others</label>
+            </div>
+            <div>
+                <input type="number" min="0" max="100" step="20"><br>
+            </div>
+            <div>
+                <br>
+                <input type="file" multiple accept="image/jpeg" name="" id="">
+            </div>
+            <div>
+                <input type="date" min="2014-05-11" max="2014-05-20">
+                <input type="datetime-local">
+                <input type="month">
+                <input type="time">
+                <input type="week">
+            </div>
+            <div>
+                <label for="">Phone</label><br>
+                <input type="tel" pattern="[0-9]{2}-[0-9]{3}-[0-9]{2}-[0-9]{2}">
+            </div>
+            <div>
+                <label for="">Url</label><br>
+                <input type="url">
+            </div>
+            <div>
+                <label for="">Search</label><br>
+                <input type="search">
+            </div>
+            <div>
+                <label for="hidden">Hidden</label><br>
+                <input type="hidden" id="hidden">
+            </div>
+            <div>
+                <label for="">Color</label><br>
+                <input id="color" type="color">
+            </div>
+            <div>
+                <label for="">Range</label><br>
+                <input type="range" id="range" min="-100" max="200">
+            </div>
+            <button type="reset">Reset</button>
+
+            <div class="products">
+                <select name="" id="">
+                    <optgroup label="Drinks">
+                        <option value="1">Milk</option>
+                        <option value="2">Tea</option>
+                        <option value="3">Cola</option>
+                    </optgroup>
+                    <optgroup label="Eaten">
+                        <option value="1">Butter</option>
+                        <option value="2">Salt</option>
+                        <option value="3">Sugar</option>
+                    </optgroup>
+                </select>
+            </div>
+
+            <div>
+                <textarea name="" id="" cols="50" rows="10"></textarea>
+            </div>
+            <input type="search" list="brands">
+            <datalist id="brands">
+                <option value="ASUS"></option>
+                <option value="Lenovo"></option>
+                <option value="ACER"></option>
+                <option value="MSI"></option>
+            </datalist>
+        </div>
+
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+
+</body>
+
+</html>
