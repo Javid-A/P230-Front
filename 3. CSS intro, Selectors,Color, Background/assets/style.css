@@ -1,0 +1,54 @@
+/* h2{
+    color: chocolate;
+}
+p{
+    color: red;
+}
+
+h1{
+    color: green;
+} */
+
+/* .first{
+    color: red;
+}
+.second{
+    color: green;
+}
+
+#third{
+    color: brown;
+}
+ */
+
+
+
+
+/* span{
+    color: blue;
+} */
+
+
+/* .first.second{
+    color: red;
+}
+
+.first.third{
+    color: yellowgreen;
+} */
+
+/* .secondDesk span{
+    color: coral;
+} */
+
+/* .secondDesk .second{
+    color: blueviolet;
+}
+
+.secondDesk #third{
+    color: pink;
+} */
+
+*{
+    color: greenyellow;
+}
