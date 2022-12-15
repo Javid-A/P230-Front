@@ -1,0 +1,64 @@
+.group{
+    /* #0-9 a-f */
+    /* color:#003300; */
+    /* color: rgb(255, 255, 255); */
+    /* color: rgba(255, 0, 0, 1); */
+    /* color: brown; */
+}   
+
+
+/* gold, silver, bronze */
+
+/* #first{
+    color: green;
+}
+h1{
+    color: red;
+} */
+
+/* .group.test{
+    color: teal;
+}
+
+.group{
+    color: blue;
+}
+
+#first.group{
+    color: chocolate;
+}
+#first.group.test{
+    color: aqua;
+} */
+
+
+
+#background{
+    background-color: aqua;
+}
+
+span{
+    background-color: aqua;
+}
+
+
+.box{
+    /* width: 200px; */
+    height: 400px;
+    background-color: rgba(189, 189, 255, 0.777);
+    background-image: url(../images/pexels-philippe-donn-1257860.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-attachment: scroll;
+    background-origin: content-box;
+    background-clip: border-box;
+    border: 5px dashed red;
+    padding: 50px;
+    color: white;
+}
+
+body{
+    height: 500vh;
+}
+
