@@ -3,6 +3,10 @@
     margin: 0;
 }
 
+*{
+    box-sizing: border-box;
+}
+
 .box{
     width: 200px;
     height: 200px;
@@ -14,3 +18,29 @@
     padding: 20px 40px;
     box-sizing: border-box;
 }
+
+.wrapper{
+    width: 500px;
+    height: 200px;
+    background-color: green;
+    margin: 50px auto;
+    /* border:5px dashed; */
+    background-clip: content-box;
+    padding: 10px;
+    /* border-radius: 50%; */
+    /* border-top-right-radius: 50%; */
+    outline: 20px solid;
+border:5px solid;
+    outline-offset: 50px;
+}
+
+.wrapper .inside-wrapper{
+    /* background-color: aqua; */
+    width: 80%;
+    height: 80%;
+}
+
+
+/* .wrapper .text{
+    padding: 20px;
+} */
