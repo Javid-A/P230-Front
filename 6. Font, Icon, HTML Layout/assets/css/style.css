@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+.checkIcon{
+    color: blue;
+    font-size: 30px;
+}
+
+.parent{
+    font-size: 25px;
+}
+
+:root{
+    font-size: 10px;
+}
+
+#font1{
+    font-family: Roboto, serif;
+    font-style: normal;
+    /* font-variant: small-caps; */
+    font-weight: 400;
+    font-display: fallback;
+    font-size: 2rem;
+}
+
+
+#font2{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    /* font-variant: small-caps; */
+    font-weight: 400;
+    font-size: 3rem;
+}
+
+
+#font3{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    /* font-variant: small-caps; */
+    font-weight: 400;
+    font-size: 4rem;
+}
