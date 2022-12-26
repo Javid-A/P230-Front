@@ -1,0 +1,29 @@
+h2{
+    position: relative;
+}
+
+h2::after{
+    content: '+9';
+    display: inline-block;
+    background-color: red;
+    color: white;
+    width: 20px;
+    height: 20px;
+    font-size: 10px;
+    text-align: center;
+    border-radius: 50%;
+    padding-top: 4px;
+    box-sizing: border-box;
+    position: absolute;
+    top: -5px;
+}
+
+h2::before{
+    content: '\1F92C';
+    display: inline;
+}
+
+ul li::before{
+    content: '\2705';
+    display: inline;
+}
