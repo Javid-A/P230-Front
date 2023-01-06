@@ -21,12 +21,25 @@
 .container .wrapper .box{
     width: 100px;
     height: 100px;
-    background-color: teal;
+    /* background-color: teal; */
+    background-image: url(../images/download.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
     position: absolute;
     top: 0;
     animation-name: Movement;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-iteration-count: 2;
+    /* animation-delay: 2s; */
+    animation-direction: normal;  
+    /* animation-timing-function: cubic-bezier(0,1.9,.83,.67);  */
+    animation-fill-mode: none;
+    animation-play-state: paused;
+    
+}
+
+.container .wrapper .box:hover{
+    animation-play-state: running;
 }
 
 
@@ -44,25 +57,47 @@
     0%{
         top: 0;
         left: 0;
+        width: 60px;
+        height: 30px;
+        /* background-color: yellow; */
+        background-image: url(../images/img_lights.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     }
     25%{
         top: 0;
         left: 100%;
-        transform: translateX(-100%);
+        transform: translateX(-200%);
+        width: 20px;
+        height: 120px;
+        /* background-color: red; */
+        background-image: url(../images/Landscape-Color.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     }
     50%{
         top: 100%;
         left: 100%;
         transform: translate(-100%,-100%);
+        /* height: 500px; */
+        background-image: url(../images/okay.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
     }
     75%{
         top: 100%;
         left: 0;
         transform: translateY(-100%);
+        background-image: url(../images/pexels-photo-674010.jpeg);
+    background-size: cover;
+    background-repeat: repeat;
 
     }
     100%{
-        top: 0;
-        left: 0;
+        top:150px;
+        left: 150px;
+        background-image: url(../images/download.jfif);
+    background-size: contain;
+    background-repeat: no-repeat;
     }
 }
