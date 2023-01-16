@@ -1,0 +1,145 @@
+.models .success-model, .models .error-model, .models .warning-model, .models .test-model {
+  width: 200px;
+  height: 200px;
+}
+
+header nav .nav-links {
+  list-style: none;
+  font-size: 22.5px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.wrapper {
+  background-color: blue;
+}
+
+.wrapper .info {
+  width: 300px !important;
+  color: black;
+}
+
+.wrapper .text h2 {
+  color: red;
+}
+
+.btn .submit {
+  border: none;
+  background-color: #3fc33f;
+  border-radius: 20px;
+  width: 80px;
+  padding: 7px 0;
+  color: white;
+  cursor: pointer;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.btn .submit:hover {
+  background-color: blue;
+}
+
+.btn > .border {
+  border: 4px solid black;
+  background-color: teal;
+  width: 100px;
+  height: 100px;
+}
+
+.btn > .border .insideElement > .border {
+  width: 50px;
+  height: 50px;
+  border: 5px solid chocolate;
+  background-color: red;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.btn > .border .insideElement > .border:hover {
+  background-color: blue;
+}
+
+.notify h3 {
+  font-size: 45px;
+  position: relative;
+}
+
+.notify h3::after {
+  content: '+9';
+  display: inline-block;
+  font-size: 15px;
+  position: absolute;
+  bottom: 20px;
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  border-radius: 50%;
+  color: white;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 2px 0 0 3px;
+  -webkit-animation: test 2s;
+          animation: test 2s;
+}
+
+p {
+  font-size: 22.5px;
+}
+
+.models {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.models .success-model {
+  border: 3px solid #094509;
+  background-color: green;
+}
+
+.models .error-model {
+  border: 3px solid #891212;
+  background-color: red;
+}
+
+.models .warning-model {
+  border: 3px solid #9a690e;
+  background-color: orange;
+}
+
+.models .test-model {
+  border: 3px solid red;
+  background-color: blue;
+}
+
+.test {
+  color: blue;
+}
+
+.test {
+  background-color: red;
+  width: 400px;
+  height: 400px;
+  padding: 20px;
+}
+
+.test__model {
+  color: red;
+}
+
+.test__model__text {
+  font-size: 20px;
+}
+/*# sourceMappingURL=main.css.map */

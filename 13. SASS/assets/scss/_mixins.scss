@@ -1,0 +1,5 @@
+@mixin model-view($brcolor:black,$bgcolor:black){
+    border: 3px solid $brcolor;
+    background-color: $bgcolor;
+    @extend %model-view;
+}

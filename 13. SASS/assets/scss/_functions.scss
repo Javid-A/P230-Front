@@ -1,0 +1,23 @@
+@function pow($base,$end){
+    $result:1;
+
+    @for $i from 1 through $end{
+        $result: $result * $base;
+    }
+
+    @return $result * 1px; 
+}
+
+
+@function resize($width, $height, $pad){
+    @if($width<$height){
+        $padding: $pad 0;
+        @return $padding;
+    }@else if($width>$height){
+        $padding: 0 $pad;
+        @return $padding;
+    }@else{
+        $padding: $pad;
+        @return $padding;
+    }
+}
