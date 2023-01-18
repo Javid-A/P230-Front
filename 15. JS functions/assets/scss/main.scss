@@ -1,0 +1,65 @@
+#Installments{
+    .debet-card{
+        position: relative;
+        border-radius: 15px;    
+        overflow: hidden;
+        .card-image{
+            img{
+                width: 60%;
+            }
+        }
+        .info{
+            margin-top: 25px;
+            ul{
+                margin-top: 15px;
+                li{
+                    &::marker{
+                        color: red;
+                    }
+                }
+            }
+        }
+        .buttons{
+            a{
+                text-decoration: none;
+               color: #616060;
+            }
+            .order{
+                cursor: pointer;
+                border-top: 1px solid #e3e3e3;
+                border-right: 1px solid #e3e3e3;
+                padding: 14px 24px;
+                a{
+                    color: #f45369;
+                    font-weight: bold;
+                }
+            }
+            .more{
+                cursor: pointer;
+                border-top: 1px solid #e3e3e3;
+                padding: 14px 24px;
+            }
+            .button{
+                transition: .3s;
+                &:hover{
+                    background-color: #f45369;
+                    a{
+                        color: white;
+                    }
+                }
+            }
+        }
+
+        &::before{
+            content: '';
+            position: absolute;
+            top: 20%;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            background-color: #f9fafb;
+            z-index: -1;
+            border-radius: 15px;
+        }
+    }
+}

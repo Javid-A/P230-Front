@@ -1,0 +1,70 @@
+#Installments .debet-card {
+  position: relative;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+#Installments .debet-card .card-image img {
+  width: 60%;
+}
+
+#Installments .debet-card .info {
+  margin-top: 25px;
+}
+
+#Installments .debet-card .info ul {
+  margin-top: 15px;
+}
+
+#Installments .debet-card .info ul li::marker {
+  color: red;
+}
+
+#Installments .debet-card .buttons a {
+  text-decoration: none;
+  color: #616060;
+}
+
+#Installments .debet-card .buttons .order {
+  cursor: pointer;
+  border-top: 1px solid #e3e3e3;
+  border-right: 1px solid #e3e3e3;
+  padding: 14px 24px;
+}
+
+#Installments .debet-card .buttons .order a {
+  color: #f45369;
+  font-weight: bold;
+}
+
+#Installments .debet-card .buttons .more {
+  cursor: pointer;
+  border-top: 1px solid #e3e3e3;
+  padding: 14px 24px;
+}
+
+#Installments .debet-card .buttons .button {
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+#Installments .debet-card .buttons .button:hover {
+  background-color: #f45369;
+}
+
+#Installments .debet-card .buttons .button:hover a {
+  color: white;
+}
+
+#Installments .debet-card::before {
+  content: '';
+  position: absolute;
+  top: 20%;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #f9fafb;
+  z-index: -1;
+  border-radius: 15px;
+}
+/*# sourceMappingURL=main.css.map */
