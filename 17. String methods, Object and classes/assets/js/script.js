@@ -97,3 +97,25 @@ let user = {
 // console.log(user2);
 
 // +"400" + +"400"
+
+class Animal {
+  constructor(teethCount, kill) {
+    this.TeethCount = teethCount;
+    this.Kill = kill;
+  }
+
+  getDatas() {
+    console.log(`Teeth count: ${this.TeethCount}, Kill: ${this.Kill}`);
+  }
+}
+class Shark extends Animal {
+  constructor(type, teethCount, kill) {
+    super(teethCount, kill);
+    this.Type = type;
+  }
+}
+
+let shark = new Shark("Fishtest");
+let animal = new Animal(350, 50);
+console.log(animal);
+console.log(shark);
