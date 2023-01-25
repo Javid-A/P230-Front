@@ -46,47 +46,67 @@
 //   }
 // });
 
-let h1 = document.createElement("h1");
-let ul = document.createElement("ul");
-let li = document.createElement("li");
-let inp = document.createElement("input");
-let inp2 = document.createElement("input");
+// let h1 = document.createElement("h1");
+// let ul = document.createElement("ul");
+// let li = document.createElement("li");
+// let inp = document.createElement("input");
+// let inp2 = document.createElement("input");
 
-console.log(h1);
-console.log(ul);
-console.log(li);
-console.log(inp);
-h1.className = "title";
-h1.id = "text";
+// console.log(h1);
+// console.log(ul);
+// console.log(li);
+// console.log(inp);
+// h1.className = "title";
+// h1.id = "text";
 
-inp.type = "text";
-inp.placeholder = "Type your firstname";
+// inp.type = "text";
+// inp.placeholder = "Type your firstname";
 
-inp2.type = "password";
-inp2.placeholder = "Type your password";
+// inp2.type = "password";
+// inp2.placeholder = "Type your password";
 
-h1.setAttribute("custom-p230", "P230Students");
+// h1.setAttribute("custom-p230", "P230Students");
 
-// console.log(h1.getAttribute("custom-p230"));
+// // console.log(h1.getAttribute("custom-p230"));
 
-// // h1.className = "info";
-// h1.classList.add("info");
-// h1.classList.add("p230");
+// // // h1.className = "info";
+// // h1.classList.add("info");
+// // h1.classList.add("p230");
 
-// h1.classList.remove("p230");
-// h1.classList.toggle("p230");
-// h1.classList.toggle("title");
-let business = document.getElementById("Business");
+// // h1.classList.remove("p230");
+// // h1.classList.toggle("p230");
+// // h1.classList.toggle("title");
+// let business = document.getElementById("Business");
 
-let append = business.append(h1, ul, "okay", "test");
-ul.append(li);
-// business.prepend(inp);
+// let append = business.append(h1, ul, "okay", "test");
+// ul.append(li);
+// // business.prepend(inp);
 
-// business.insertBefore(inp, ul);
+// // business.insertBefore(inp, ul);
 
-let appendChild = business.appendChild(inp2);
+// let appendChild = business.appendChild(inp2);
 
-console.log(appendChild);
-console.log(append);
-h1.innerText = "Hello P230";
-li.innerHTML = "<b>Rashid</b>";
+// console.log(appendChild);
+// console.log(append);
+// h1.innerText = "Hello P230";
+// li.innerHTML = "<b>Rashid</b>";
+
+class CustomMatch {
+  constructor(number) {
+    this.Number = number;
+  }
+
+  plus(number) {
+    this.Number += number;
+    return this;
+  }
+  multiply(number) {
+    this.Number *= number;
+    // return this.Number;
+  }
+}
+
+let custom = new CustomMatch(90).plus(20).multiply();
+
+// custom.multiply(2);
+console.log(custom.Number);
