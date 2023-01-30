@@ -93,6 +93,7 @@ let box = document.querySelector(".box");
 // box.onwheel = function (e) {
 //   console.log(e);
 // };
+let menuSize = false;
 let lastContext;
 window.oncontextmenu = function (event) /*Event object*/ {
   event.preventDefault();
@@ -105,6 +106,12 @@ window.oncontextmenu = function (event) /*Event object*/ {
   div.style.position = "fixed";
   div.style.top = `${event.clientY}px`;
   div.style.left = `${event.clientX}px`;
+  console.log(window.outerWidth);
+  console.log(window.innerWidth);
+  console.log(event.clientX);
+  if (window.innerWidth - 15 - event.clientX < 150) {
+    div.classList.add("translate");
+  }
   document.body.prepend(div);
   lastContext = div;
 };
