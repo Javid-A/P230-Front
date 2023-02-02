@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#Products{
+    padding: 50px 0;
+    .product{
+         padding: 10px 20px;
+        border: 3px ridge gray;
+        .image{
+            margin-bottom: 15px;
+            display: flex;
+            justify-content: center;
+            img{
+                width: 200px;
+            height: 200px;
+                object-fit: contain;
+            }
+        }
+    }
+}
