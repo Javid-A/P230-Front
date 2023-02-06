@@ -1,0 +1,27 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .wrapper{
+        position: relative;
+        width: 250px;
+        height: 250px;
+        background-color: red;
+        .absolute{
+            position: absolute;
+            top: 0;
+            width: 150px;
+            height: 150px;
+            background-color: blue;
+            .absolute-2{
+                position: absolute;
+                top: 0;
+                right: 0;
+                width: 70px;
+                height: 70px;
+                background-color: yellow;
+            }
+        }
+    }
+}
