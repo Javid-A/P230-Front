@@ -1,37 +1,22 @@
-body {
-  height: 100vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+.image {
+  width: 100px;
+  height: 100px;
+  background-color: gray;
+  color: white;
+  font-size: 25px;
 }
 
-body .wrapper {
-  position: relative;
-  width: 250px;
-  height: 250px;
+.item {
+  margin-left: 10px;
+}
+
+.avatar {
+  width: 200px;
+  height: 200px;
   background-color: red;
 }
 
-body .wrapper .absolute {
-  position: absolute;
-  top: 0;
-  width: 150px;
-  height: 150px;
-  background-color: blue;
-}
-
-body .wrapper .absolute .absolute-2 {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 70px;
-  height: 70px;
-  background-color: yellow;
+.items {
+  position: relative;
 }
 /*# sourceMappingURL=mian.css.map */
