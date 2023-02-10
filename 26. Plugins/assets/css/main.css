@@ -1,0 +1,42 @@
+.accordions .accordion {
+  margin-top: 10px;
+}
+
+.accordions .accordion .accordion-header {
+  border: 2px solid black;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  cursor: pointer;
+}
+
+.accordions .accordion .accordion-header .icon i {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.accordions .accordion .accordion-header .icon i.active {
+  -webkit-transform: rotateZ(180deg);
+          transform: rotateZ(180deg);
+}
+
+.accordions .accordion .accordion-article {
+  text-align: justify;
+  padding: 10px 20px;
+  display: none;
+}
+
+.item {
+  cursor: url("https://i.stack.imgur.com/bUGV0.png"), auto;
+  width: 200px;
+  height: 200px;
+  background-color: teal;
+  -webkit-clip-path: polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%);
+          clip-path: polygon(0% 15%, 15% 15%, 15% 0%, 85% 0%, 85% 15%, 100% 15%, 100% 85%, 85% 85%, 85% 100%, 15% 100%, 15% 85%, 0% 85%);
+}
+/*# sourceMappingURL=main.css.map */
